@@ -34,7 +34,7 @@ function CommentsTable({ comments, posts, onEdit }) {
   return (
     <div className="p-4 max-w-full mx-auto">
       <div className="overflow-x-auto mt-6 mx-2 sm:mx-8 rounded-lg bg-gradient-to-br from-indigo-600 to-pink-600 p-3 shadow-lg">
-        <table className="min-w-full text-sm sm:text-base divide-y divide-gray-800">
+        <table className=" w-full min-w-[600px] text-sm sm:text-base divide-y divide-gray-800">
           <thead className="bg-green-200 text-black">
             <tr className="text-base sm:text-lg font-bold">
               <th className="px-2 sm:px-4 py-2 sm:py-3 text-left">Email</th>
